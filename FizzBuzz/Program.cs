@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace FizzBuzz
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            FizzBuzzGenerator.GenerateFizzBuzz();
         }
     }
 }
